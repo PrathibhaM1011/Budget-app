@@ -1,0 +1,196 @@
+{
+  "users": [
+    {
+      "id": "aa6d",
+      "name": "Prathyusha",
+      "budget": 0
+    },
+    {
+      "id": "ff3b",
+      "name": "Prathyusha",
+      "budget": 0
+    },
+    {
+      "id": "4c1b",
+      "name": "Prathyusha",
+      "budget": 0
+    },
+    {
+      "id": "2073",
+      "name": "Prathyusha",
+      "budget": 0
+    },
+    {
+      "id": "f5d5",
+      "name": "Prathyusha",
+      "budget": ""
+    },
+    {
+      "id": "8186",
+      "name": "Prathyusha",
+      "budget": ""
+    },
+    {
+      "id": "c307",
+      "name": "Prathyusha",
+      "budget": ""
+    },
+    {
+      "id": "b7c2",
+      "name": "Prathyusha",
+      "budget": ""
+    },
+    {
+      "id": "f861",
+      "name": "Prathyusha",
+      "budget": ""
+    },
+    {
+      "id": "7256",
+      "name": "Prathyusha",
+      "budget": ""
+    },
+    {
+      "id": "4c13",
+      "name": "Prathyusha",
+      "budget": ""
+    },
+    {
+      "id": "65d1",
+      "name": "Prathibha",
+      "budget": ""
+    },
+    {
+      "id": "1fcd",
+      "name": "Prathibha",
+      "budget": ""
+    },
+    {
+      "id": "5d0f",
+      "name": "Prathibha",
+      "budget": ""
+    },
+    {
+      "id": "1deb",
+      "name": "Prathibha",
+      "budget": ""
+    },
+    {
+      "id": "8b12",
+      "name": "Prathibha",
+      "budget": ""
+    },
+    {
+      "id": "337d",
+      "name": "Prathibha",
+      "budget": ""
+    },
+    {
+      "id": "4ecf",
+      "name": "Krishna",
+      "budget": ""
+    },
+    {
+      "id": "8daa",
+      "name": "Krishna",
+      "budget": ""
+    },
+    {
+      "id": "3702",
+      "name": "Prathyusha",
+      "budget": ""
+    },
+    {
+      "id": "327c",
+      "name": "Prathyusha",
+      "budget": ""
+    },
+    {
+      "id": "a609",
+      "name": "Prathibha",
+      "budget": ""
+    },
+    {
+      "id": "eca7",
+      "name": "Krishna",
+      "budget": ""
+    },
+    {
+      "id": "f7c1",
+      "name": "Gopi",
+      "budget": ""
+    },
+    {
+      "id": "052d",
+      "name": "Gopi",
+      "budget": ""
+    },
+    {
+      "id": "53e8",
+      "name": "Gopi",
+      "budget": ""
+    }
+  ],
+  "expenses": [
+    {
+      "id": "b4ab",
+      "category": "Entertainment",
+      "amount": 20000
+    },
+    {
+      "id": "6f98",
+      "category": "Food",
+      "amount": "345"
+    },
+    {
+      "id": "7862",
+      "category": "Future Savings",
+      "amount": "789"
+    },
+    {
+      "id": "0c3d",
+      "category": "Food",
+      "amount": "890"
+    },
+    {
+      "id": "2f3d",
+      "category": "Future Savings",
+      "amount": "10000"
+    },
+    {
+      "id": "6566",
+      "category": "Entertainment",
+      "amount": "2000"
+    },
+    {
+      "id": "eda2",
+      "category": "Responsibility",
+      "amount": "2500"
+    },
+    {
+      "id": "af9c",
+      "category": "Entertainment",
+      "amount": "5500"
+    },
+    {
+      "id": "69a5",
+      "category": "Food",
+      "amount": "8900"
+    },
+    {
+      "id": "6ca8",
+      "category": "Shopping",
+      "amount": "56"
+    },
+    {
+      "id": "baa7",
+      "category": "Future Savings",
+      "amount": "5677"
+    },
+    {
+      "id": "8ef1",
+      "category": "Food",
+      "amount": "200"
+    }
+  ]
+}
