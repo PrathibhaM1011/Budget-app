@@ -155,7 +155,7 @@ function addExpense() {
 
                 user.expenses.push({ category, amount: Number(amount) });
 
-                fetch(`https://broken-like-flame.glitch.me/users/${user.id}`, {
+                fetch(`https://broken-like-flame.glitch.me/users?id=${user.id}`, {
                     method: "PUT",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify(user)
