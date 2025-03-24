@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John",
+      "budget": 5000,
+      "expenses": [
+        {
+          "category": "Food",
+          "amount": 500
+        },
+        {
+          "category": "Travel",
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "id": "a187",
+      "name": "Prathibha",
+      "budget": 25000,
+      "expenses": []
+    },
+    {
+      "id": "1516",
+      "name": "karthika",
+      "budget": 15000,
+      "expenses": [
+        {
+          "category": "Food",
+          "amount": 0
+        },
+        {
+          "category": "Food",
+          "amount": 0
+        },
+        {
+          "category": "Responsibility",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "id": "d3c5",
+      "name": "Prathyusha",
+      "budget": 35000,
+      "expenses": [
+        {
+          "category": "Food",
+          "amount": 789
+        }
+      ]
+    },
+    {
+      "id": "4dc3",
+      "name": "Krishna",
+      "budget": 56000,
+      "expenses": [
+        {
+          "category": "Future Savings",
+          "amount": 4000
+        },
+        {
+          "category": "Entertainment",
+          "amount": 6000
+        }
+      ]
+    }
+  ]
+}

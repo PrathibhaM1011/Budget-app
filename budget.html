@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Calculator & Reminder</title>
+        <style>
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+    
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+h2, h3 {
+    color: #333;
+}
+
+input, select, button {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+#expense-list {
+    list-style: none;
+    padding: 0;
+}
+
+#expense-list li {
+    background: white;
+    padding: 8px;
+    margin: 5px;
+    
+}
+
+#register{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <!-- User Registration -->
+    <div id="register" >
+        <h2>Enter Your Name</h2>
+        <input type="text" id="username" placeholder="Your Name" style="width:320px;background-color: aliceblue; border:1px solid gray">
+        <button onclick="registerUser()" style="width: 120px;border-radius: 10px;">Start</button>
+    </div>
+
+    <!-- Budget Input -->
+    <div id="budget-section" style="display: none;">
+        <h2>Enter Your Monthly Budget</h2>
+        <input type="number" id="monthly-budget" placeholder="Budget Amount" style="width:320px;background-color: aliceblue; border:1px solid gray">
+        <button onclick="setBudget()" style="width: 120px;border-radius: 10px;">Set Budget</button>
+    </div>
+
+    
+    <div id="app" style="display: none;">
+        <h2>Welcome, <span id="user-name"></span></h2>
+        <h3>Remaining Budget: ₹<span id="remaining-budget" style="color:crimson"></span></h3>       
+
+        
+        <h2>Add Expense</h2>
+        <select id="category">
+            <option value="Food">Food</option>
+            <option value="Travel">Travel</option>
+            <option value="Groceries">Groceries</option>
+            <option value="Shopping">Shopping</option>
+            <option value="Entertainment">Entertainment</option>
+            <option value="Responsibility">Responsibility</option>
+            <option value="Future Savings">Future Savings</option>
+        </select>
+        <input type="number" id="amount" placeholder="Amount" style="width:320px;background-color: aliceblue; border:1px solid gray">
+        <button style="width: 120px;border-radius: 10px;" id="addExpenseBtn" onclick="addExpense()">Add Expense</button>
+
+        <!-- Expense List -->
+        <h2 style="color:crimson">Expense List</h2>
+        <ul id="expense-list"></ul>
+    </div>   
+
+    
+
+
+    <script src="budget.js"></script>
+</body>
+</html>
